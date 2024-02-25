@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure elements with ids are positioned correctly after scrolling */
+[id]:before {
+  display: block;
+  content: "";
+  margin-top: -80px; /* Adjust this value to accommodate any fixed elements, such as a navigation bar */
+  height: 80px; /* Fixed header height */
+  visibility: hidden;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 800px; /* Adjust this value as needed */
+  padding: 20px;
+}
