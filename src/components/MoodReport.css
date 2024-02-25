@@ -1,0 +1,15 @@
+/* MoodReport.css */
+.mood-report {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mood-report h2 {
+    color: #333;
+  }
+  
+  /* Add more styles as needed */
+  
